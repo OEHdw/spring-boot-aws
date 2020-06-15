@@ -2,13 +2,11 @@ package com.example.demo;
 
 import com.example.demo.model.Model;
 import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
-import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-import java.util.logging.Logger;
 
 @RestController
 public class HomeController {
@@ -18,12 +16,10 @@ public class HomeController {
     @RequestMapping
     public Model hello() throws IOException {
         BasicConfigurator.configure();
-        Handler handler = new FileHandler("emilio.log");
-        logger.addHandler(handler);
         logger.info("starting home controller");
         Model model = new Model();
         model.setName("hey");
-        logger.info(model.getName());
+        logger.info(model);
         return model;
     }
 

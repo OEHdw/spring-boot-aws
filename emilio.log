@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-06-15T19:39:44</date>
-  <millis>1592242784413</millis>
+  <date>2020-06-15T19:55:27</date>
+  <millis>1592243727346</millis>
   <sequence>4</sequence>
   <logger>com.example.demo.HomeController</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>starting home controller</message>
 </record>
 <record>
-  <date>2020-06-15T19:39:44</date>
-  <millis>1592242784413</millis>
+  <date>2020-06-15T19:55:27</date>
+  <millis>1592243727346</millis>
   <sequence>5</sequence>
   <logger>com.example.demo.HomeController</logger>
   <level>INFO</level>
