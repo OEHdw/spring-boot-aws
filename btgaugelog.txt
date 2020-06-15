@@ -1,0 +1,1 @@
+06-15-2020 00:06:39:111	[1028]	UnloadBatteryGaugeFromExplorer hImpersonationToken=672

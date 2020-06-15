@@ -1,0 +1,23 @@
+06-14-2020 22:43:32:533	[15]	BGX - wWinMain #1 
+06-14-2020 22:43:32:535	[354]	GetPackageWorkPath #1
+06-14-2020 22:43:32:537	[399]	GetPackageWorkPath #2 OK ####  strWorkPath=C:\ProgramData\Lenovo\ImController\Plugins\LenovoBatteryGaugePackage\x64\
+06-14-2020 22:43:32:538	[106]	BGX - task #5 begin to check
+06-14-2020 22:43:32:539	[241]	IsInstalledBatteryGauge install=1
+06-14-2020 22:43:32:540	[300]	ImpersonateLoggedOnUserBegin #1
+06-14-2020 22:43:32:542	[320]	ImpersonateLoggedOnUserBegin #3 ***** bRet=1, szUserName=SYSTEM
+06-14-2020 22:43:32:543	[328]	ImpersonateLoggedOnUserBegin #5  dwSessionId=1
+06-14-2020 22:43:32:546	[331]	ImpersonateLoggedOnUserBegin #6 ***** 
+06-14-2020 22:43:32:547	[173]	BGX - task #12 BG has already been installed... hImpersonationToken=0x244
+06-14-2020 22:43:32:548	[259]	IsShowInReg show=0
+06-14-2020 22:43:32:552	[278]	IsShowInTaskbar show=false
+06-14-2020 22:43:32:553	[194]	BGX - task #17
+06-14-2020 22:43:32:555	[203]	BGX - task #18  case 5: Install & not display : pop up toast to let user enable BG
+06-14-2020 22:43:32:556	[412]	IsFileInfoValid #1
+06-14-2020 22:43:32:559	[442]	IsFileInfoValid #2 OK ####
+06-14-2020 22:43:32:559	[609]	LaunchPinVantageToolbarToast #1 hImpersonationToken=580
+06-14-2020 22:43:32:560	[598]	IsRelateddServiceRunning ---> bRun=1, bInstalled=0, bVantage3x=0
+06-14-2020 22:43:32:561	[649]	LaunchPinVantageToolbarToast ---> failed to launch toast
+06-14-2020 22:43:32:562	[213]	BGX - task #19
+06-14-2020 22:43:32:563	[341]	ImpersonateLoggedOnUserEnd #1
+06-14-2020 22:43:32:564	[344]	ImpersonateLoggedOnUserEnd #2 ****
+06-14-2020 22:43:32:565	[217]	BGX - task #20 exit @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
