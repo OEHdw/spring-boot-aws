@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.model.Model;
+import org.apache.log4j.BasicConfigurator;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,10 +14,11 @@ public class HomeController {
 
     @RequestMapping
     public Model hello(){
-        System.out.println("starting home controller");
+        BasicConfigurator.configure();
+        logger.info("starting home controller");
         Model model = new Model();
         model.setName("hey");
-        System.out.println(model);
+        logger.info(model);
         return model;
     }
 
