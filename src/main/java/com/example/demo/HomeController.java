@@ -13,10 +13,10 @@ public class HomeController {
 
     @RequestMapping
     public Model hello(){
-        logger.info("starting home controller");
+        System.out.println("starting home controller");
         Model model = new Model();
         model.setName("hey");
-        logger.info(model);
+        System.out.println(model);
         return model;
     }
 
