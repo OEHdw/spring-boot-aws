@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-06-15T19:38:55</date>
+  <millis>1592242735320</millis>
+  <sequence>4</sequence>
+  <logger>com.example.demo.HomeController</logger>
+  <level>INFO</level>
+  <class>com.example.demo.HomeController</class>
+  <method>hello</method>
+  <thread>118</thread>
+  <message>starting home controller</message>
+</record>
+<record>
+  <date>2020-06-15T19:38:55</date>
+  <millis>1592242735322</millis>
+  <sequence>5</sequence>
+  <logger>com.example.demo.HomeController</logger>
+  <level>INFO</level>
+  <class>com.example.demo.HomeController</class>
+  <method>hello</method>
+  <thread>118</thread>
+  <message>hey</message>
+</record>
